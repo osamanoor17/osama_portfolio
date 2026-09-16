@@ -340,6 +340,25 @@
   font-weight: 700;
 }
 
+[data-theme='light'] .view-mode-toggle {
+  background: rgba(0, 0, 0, 0.06);
+  border-color: var(--line, #d1d6c8);
+}
+
+[data-theme='light'] .view-mode-btn {
+  color: var(--soft, #59634f);
+}
+
+[data-theme='light'] .view-mode-btn:hover {
+  color: var(--foreground, #20251e);
+}
+
+[data-theme='light'] .view-mode-btn[aria-pressed='true'] {
+  background: var(--accent, #49651e);
+  color: #ffffff;
+  font-weight: 700;
+}
+
 /* Responsive styles */
 @media (max-width: 900px) {
   .cyber-card-grid {

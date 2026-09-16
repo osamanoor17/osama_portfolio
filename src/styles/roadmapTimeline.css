@@ -239,6 +239,7 @@
   left: 0;
   right: 0;
   height: 3px;
+  background: var(--milestone-color-dark, #4ade80);
 }
 
 .roadmap-detail-top {
@@ -263,6 +264,8 @@
   border-style: solid;
   border-radius: 4px;
   background: rgba(255, 255, 255, 0.04);
+  border-color: var(--milestone-color-dark, #4ade80);
+  color: var(--milestone-color-dark, #4ade80);
 }
 
 .roadmap-period {
@@ -430,4 +433,178 @@
   .roadmap-detail-card {
     padding: 24px;
   }
+}
+
+/* --- Light Mode Color Palette & UI Enhancements --- */
+[data-theme='light'] .roadmap-header-graphic {
+  color: var(--accent, #49651e);
+}
+
+[data-theme='light'] .roadmap-dot-main {
+  fill: #eef1e6;
+  stroke: #49651e;
+}
+
+[data-theme='light'] .roadmap-track-ribbon {
+  stroke: #49651e;
+}
+
+[data-theme='light'] .roadmap-track-dashed {
+  stroke: #b45309;
+  opacity: 0.8;
+}
+
+[data-theme='light'] .roadmap-banner {
+  background: #f4f6ef;
+  border: 1px solid #d1d8c5;
+  box-shadow: 0 16px 45px rgba(0, 0, 0, 0.05), inset 0 0 30px rgba(73, 101, 30, 0.03);
+}
+
+[data-theme='light'] .roadmap-years-count {
+  color: #354e13;
+  text-shadow: none;
+}
+
+[data-theme='light'] .roadmap-title-text h2 {
+  color: #20251e;
+}
+
+[data-theme='light'] .roadmap-title-text p {
+  color: #59634f;
+}
+
+[data-theme='light'] .roadmap-badge-pill {
+  border-color: #b8c4a5;
+  background: #e2e8d5;
+  color: #354e13;
+}
+
+[data-theme='light'] .accent-icon {
+  color: #49651e;
+}
+
+[data-theme='light'] .node-circle-outer {
+  border-color: #d1d8c5;
+  background: #e9ede0;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.06);
+}
+
+[data-theme='light'] .node-circle-inner {
+  border-color: #c4ceb4;
+  background: #f7f8f3;
+  color: #59634f;
+}
+
+[data-theme='light'] .node-pulse-ring {
+  border-color: #49651e;
+}
+
+[data-theme='light'] .roadmap-node-btn.active .node-circle-outer {
+  border-color: #49651e;
+  box-shadow: 0 0 25px rgba(73, 101, 30, 0.3), 0 8px 24px rgba(0, 0, 0, 0.1);
+}
+
+[data-theme='light'] .roadmap-node-btn.active .node-circle-inner {
+  background: #49651e;
+  color: #ffffff;
+}
+
+[data-theme='light'] .node-company-label {
+  color: #59634f;
+}
+
+[data-theme='light'] .roadmap-node-btn.active .node-company-label {
+  color: #20251e;
+  font-weight: 700;
+}
+
+[data-theme='light'] .roadmap-detail-card {
+  background: #ffffff;
+  border: 1px solid #d1d8c5;
+  box-shadow: 0 14px 40px rgba(0, 0, 0, 0.06);
+}
+
+[data-theme='light'] .roadmap-card-glow-bar {
+  background: var(--milestone-color-light, #15803d);
+}
+
+[data-theme='light'] .roadmap-tag-badge {
+  border-color: var(--milestone-color-light, #15803d);
+  color: var(--milestone-color-light, #15803d);
+  background: var(--milestone-bg-light, rgba(21, 128, 61, 0.1));
+  font-weight: 800;
+}
+
+[data-theme='light'] .roadmap-period {
+  color: #59634f;
+}
+
+[data-theme='light'] .roadmap-year-watermark {
+  color: rgba(73, 101, 30, 0.09);
+}
+
+[data-theme='light'] .roadmap-company-icon {
+  color: #49651e;
+}
+
+[data-theme='light'] .roadmap-company-info h3 {
+  color: #20251e;
+}
+
+[data-theme='light'] .roadmap-role-title {
+  color: #354e13;
+}
+
+[data-theme='light'] .roadmap-headline {
+  color: #20251e;
+}
+
+[data-theme='light'] .roadmap-summary {
+  color: #59634f;
+}
+
+[data-theme='light'] .roadmap-point-item {
+  color: #20251e;
+}
+
+[data-theme='light'] .roadmap-check-icon {
+  color: #49651e;
+}
+
+[data-theme='light'] .roadmap-tech-strip {
+  border-top-color: #e2e8d5;
+}
+
+[data-theme='light'] .roadmap-tech-label {
+  color: #59634f;
+}
+
+[data-theme='light'] .roadmap-tech-pill {
+  border-color: #b8c4a5;
+  background: #e4e9d9;
+  color: #1a2315;
+  font-weight: 700;
+}
+
+[data-theme='light'] .roadmap-step-dot {
+  background: #e4e9d9;
+  border-color: #b8c4a5;
+  color: #20251e;
+  font-weight: 700;
+}
+
+[data-theme='light'] .roadmap-step-dot .step-num {
+  color: #59634f;
+  font-weight: 700;
+}
+
+[data-theme='light'] .roadmap-step-dot.active {
+  background: #354e13;
+  color: #ffffff;
+  border-color: #354e13;
+  box-shadow: 0 4px 14px rgba(53, 78, 19, 0.3);
+}
+
+[data-theme='light'] .roadmap-step-dot.active .step-num {
+  color: rgba(255, 255, 255, 0.85);
 }

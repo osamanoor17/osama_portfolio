@@ -193,6 +193,7 @@ export function AnimatedRoadmapTimeline() {
               strokeWidth="1.5"
               strokeDasharray="6 6"
               opacity="0.6"
+              className="roadmap-track-dashed"
             />
           </svg>
 
@@ -225,16 +226,37 @@ export function AnimatedRoadmapTimeline() {
           <motion.div
             key={current.id}
             className="roadmap-detail-card"
+            style={
+              {
+                '--milestone-color-dark': current.color,
+                '--milestone-color-light':
+                  current.id === '2023'
+                    ? '#15803d'
+                    : current.id === '2024'
+                    ? '#0284c7'
+                    : current.id === '2025'
+                    ? '#b45309'
+                    : '#354e13',
+                '--milestone-bg-light':
+                  current.id === '2023'
+                    ? 'rgba(21, 128, 61, 0.1)'
+                    : current.id === '2024'
+                    ? 'rgba(2, 132, 199, 0.1)'
+                    : current.id === '2025'
+                    ? 'rgba(180, 83, 9, 0.1)'
+                    : 'rgba(53, 78, 19, 0.1)',
+              } as React.CSSProperties
+            }
             initial={{ opacity: 0, y: 16, scale: 0.98 }}
             animate={{ opacity: 1, y: 0, scale: 1 }}
             exit={{ opacity: 0, y: -12, scale: 0.98 }}
             transition={{ duration: 0.3 }}
           >
-            <div className="roadmap-card-glow-bar" style={{ background: current.color }} />
+            <div className="roadmap-card-glow-bar" />
 
             <div className="roadmap-detail-top">
               <div className="roadmap-detail-meta">
-                <span className="roadmap-tag-badge" style={{ borderColor: current.color, color: current.color }}>
+                <span className="roadmap-tag-badge">
                   {current.badge}
                 </span>
                 <span className="roadmap-period">
