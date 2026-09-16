@@ -1,0 +1,183 @@
+/* Preserve the landscape composition at every breakpoint. */
+.project-visual.artwork-visual {height:auto;aspect-ratio:16/9;background:#0c1012;border:1px solid #364039}
+.artwork-visual>img {display:block;width:100%;height:100%;object-fit:contain;transition:transform .75s cubic-bezier(.2,.7,.2,1)}
+.artwork-caption {position:absolute;inset:0 0 auto;padding:20px 25px 38px;display:flex;justify-content:space-between;gap:15px;align-items:center;color:#f0f3ee;background:linear-gradient(#080c10b8,transparent);pointer-events:none}
+.artwork-caption>span:first-child {font-size:15px;font-weight:500;letter-spacing:-.02em}
+.artwork-caption>span:last-child {font:9px var(--mono);letter-spacing:.09em;color:#b9c5be}
+@media(hover:hover) and (pointer:fine){.project-open:hover .artwork-visual>img{transform:scale(1.018)}.archive-row:hover .archive-preview img{transform:scale(1.045)}}
+.archive-row {grid-template-columns:32px 128px minmax(0,1fr) 230px 22px;gap:24px;padding:22px 0}
+.archive-preview {display:block;aspect-ratio:16/9;overflow:hidden;background:#141c1c;border:1px solid #374033}
+.archive-preview img {width:100%;height:100%;object-fit:contain;display:block;transition:transform .5s}
+.archive-row:hover {padding-left:0}
+.case-artwork {margin:0 0 26px}
+.case-artwork figcaption {font:10px/1.7 var(--mono);color:#9dac93;margin-top:10px}
+.case-artwork .artwork-caption {padding:15px 18px 30px}
+.case-artwork .artwork-caption>span:first-child {font-size:12px}
+.case-artwork .artwork-caption>span:last-child {font-size:8px}
+@media(max-width:1100px){.archive-row{grid-template-columns:25px 106px minmax(0,1fr) 175px 20px;gap:18px}.archive-name{font-size:18px}}
+@media(max-width:800px){.archive-row{grid-template-columns:24px 110px minmax(0,1fr) 20px;gap:7px 16px}.archive-number{grid-column:1;grid-row:1/3}.archive-preview{grid-column:2;grid-row:1/3}.archive-name{grid-column:3;grid-row:1;align-self:end}.archive-category{grid-column:3;grid-row:2;align-self:start}.archive-row>svg{grid-column:4;grid-row:1/3}.artwork-caption{padding:14px 17px 30px}.artwork-caption>span:first-child{font-size:12px}.artwork-caption>span:last-child{font-size:7px}}
+@media(max-width:600px){.archive-row{grid-template-columns:80px minmax(0,1fr) 18px;gap:8px 13px;padding:19px 0}.archive-number{display:none}.archive-preview{grid-column:1;grid-row:1/3}.archive-name{grid-column:2;font-size:16px;line-height:1.4}.archive-category{grid-column:2;font-size:7px;line-height:1.6}.archive-row>svg{grid-column:3}.artwork-caption{padding:11px 12px 25px}.artwork-caption>span:first-child{font-size:11px}.artwork-caption>span:last-child{font-size:6px}.artwork-visual+.project-open-hint{bottom:10px;right:10px;padding:7px 9px;font-size:8px}.case-artwork .artwork-caption>span:last-child{display:none}.case-artwork figcaption{font-size:9px}}
+@media(prefers-reduced-motion:reduce){.artwork-visual>img,.archive-preview img{transition:none;transform:none!important}}
+
+/* The supplied Sahara poster is portrait: show the complete image, including its interface. */
+.project-visual.artwork-sahara {aspect-ratio:9/16;max-width:360px;margin-inline:auto;background:#080c19}
+.project-open:hover .artwork-sahara>img {transform:none}
+.project-sahara .project-open-hint {right:50%;transform:translateX(50%);white-space:nowrap}
+.project-context {max-width:510px;margin:30px 0 0 32px}
+.project-context>p {font-size:15px;line-height:1.85;color:#aab39f;margin-bottom:25px}
+.project-context .tags {font-size:11px}
+.case-artwork .artwork-sahara {max-width:360px}
+@media(max-width:800px){.project-context{margin-left:22px}.project-context>p{font-size:13px}.project-context .tags{font-size:9px}}
+@media(max-width:600px){.project-context{display:none}.project-visual.artwork-sahara{max-width:100%}.case-artwork .artwork-sahara{max-width:320px}.project-sahara .project-open-hint{right:50%;bottom:10px;transform:translateX(50%)}}
+
+/* Refined Sahara cover and authentic Haqooq product captures. */
+.project-visual.artwork-smarthire {aspect-ratio:1;max-width:850px;margin-inline:auto}
+.project-smarthire .project-open,.project-smarthire .project-meta {max-width:850px;margin-inline:auto}
+.project-open:hover .artwork-smarthire>img {transform:none}
+.project-smarthire .project-open-hint {position:static;opacity:1;transform:none;justify-content:space-between;width:100%;padding:12px 16px;font-size:11px;border:1px solid #364039;border-top:0;background:#111a17;color:#c1d2c8;backdrop-filter:none}
+.project-smarthire .project-open:hover .project-open-hint {transform:none;color:#d6ef80}
+.project-visual.artwork-islamic {aspect-ratio:3/2}
+.project-open:hover .artwork-islamic>img {transform:none}
+.project-visual.artwork-sahara,.case-artwork .artwork-sahara {aspect-ratio:16/9;max-width:none}
+.sahara-cover-copy {position:absolute;left:6%;top:23%;width:43%;display:flex;flex-direction:column;text-align:left;pointer-events:none}
+.sahara-cover-copy>.eyebrow {font-size:9px;color:#83d7bc;letter-spacing:.13em}
+.sahara-cover-copy strong {font-size:clamp(18px,2.6vw,36px);line-height:1.2;font-weight:500;letter-spacing:-.05em;margin-top:18px;color:#f2f5ef}
+.sahara-cover-copy em {font-style:normal;color:#a5cbbb}
+.sahara-cover-detail {font-size:11px;line-height:1.8;color:#a1b7ac;margin-top:20px}
+.project-sahara .project-open-hint {right:18px;transform:none}
+.project-visual.artwork-haqooq {display:flex;align-items:center;justify-content:center;padding:28px 24px 20px;background:radial-gradient(ellipse at 50% 100%,#174335,#0c1514 75%)}
+.artwork-haqooq>img {height:auto;border:1px solid #59756b50;border-radius:5px;box-shadow:0 14px 35px #0007}
+.screenshot-label {position:absolute;top:12px;left:24px;font:8px var(--mono);letter-spacing:.06em;color:#acc9ba}
+.case-artwork .artwork-haqooq {aspect-ratio:auto;padding:0;background:transparent;border:0}
+.case-artwork .artwork-haqooq>img {border-radius:4px;box-shadow:none}
+.case-artwork .sahara-cover-copy strong {font-size:clamp(17px,4vw,31px)}
+.case-screenshot {margin:28px 0 32px}
+.case-screenshot>figcaption {font-size:16px;color:var(--accent);margin-bottom:14px}
+.case-screenshot img {display:block;width:100%;height:auto;border:1px solid #425143;border-radius:4px}
+.screenshot-full {display:inline-flex;align-items:center;gap:10px;font-size:12px;color:#b2c59e;margin-top:12px;padding:5px 0}
+.screenshot-full:hover {color:var(--accent)}
+.project-context {display:none}
+@media(max-width:800px){.sahara-cover-copy>.eyebrow{font-size:7px}.sahara-cover-copy strong{font-size:21px;margin-top:11px}.sahara-cover-detail{font-size:8px;margin-top:10px}.project-visual.artwork-haqooq{padding:23px 14px 15px}.screenshot-label{font-size:7px;left:14px;top:10px}.case-artwork .artwork-haqooq{padding:0}}
+@media(max-width:600px){.sahara-cover-copy strong{font-size:21px}.sahara-cover-copy{top:22%}.project-sahara .project-open-hint{right:10px;transform:none}.case-artwork .sahara-cover-copy strong{font-size:18px}.case-artwork .sahara-cover-detail{font-size:7px;margin-top:8px}}
+
+.project-sahara .project-open-hint,.project-haqooq .project-open-hint,.project-islamic .project-open-hint {
+  position:static;opacity:1;transform:none;display:flex;justify-content:space-between;
+  width:100%;padding:12px 16px;font-size:11px;border:1px solid #364039;border-top:0;
+  background:#111a17;color:#c1d2c8;backdrop-filter:none;
+}
+.project-sahara .project-open:hover .project-open-hint,.project-haqooq .project-open:hover .project-open-hint,.project-islamic .project-open:hover .project-open-hint {transform:none;color:#d6ef80}
+
+/* Selected archive projects become distinct, readable product stories. */
+.additional-work {margin-top:100px;display:flex;flex-direction:column;gap:85px}
+.additional-project {display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,1fr);gap:65px;align-items:center;border-top:1px solid var(--line);padding-top:45px}
+.additional-image {width:100%;display:block;padding:0;text-align:left}
+.additional-copy>.eyebrow {font-size:10px;color:#91a680}
+.additional-copy h3 {font-size:clamp(27px,3vw,42px);line-height:1.25;font-weight:500;letter-spacing:-.045em;margin-top:14px}
+.additional-copy .additional-headline {font-size:23px;line-height:1.4;white-space:pre-line;letter-spacing:-.03em;color:#c4d1b8;margin:24px 0 17px}
+.additional-copy>p:not(.additional-headline) {font-size:14px;color:#9fac91;line-height:1.9;margin-bottom:22px}
+.additional-copy .tags {font-size:10px;margin-bottom:18px}
+.additional-copy .text-link {font-size:13px;color:#c3d4b3}
+.additional-external {margin-left:26px}
+.additional-sql,.additional-shop {grid-template-columns:minmax(0,1fr) minmax(0,1.1fr)}
+.additional-shop .additional-image {grid-column:2;grid-row:1}
+.additional-shop .additional-copy {grid-column:1;grid-row:1}
+.project-visual.artwork-sql,.project-visual.artwork-shop {aspect-ratio:auto;height:auto;background:radial-gradient(ellipse at 50% 50%,#23404e,#111a1e 70%);padding:30px;display:flex;justify-content:center;align-items:center}
+.artwork-sql>img {width:auto;height:auto;max-width:100%;max-height:520px;border-radius:12px;box-shadow:0 22px 50px #0006}
+.artwork-shop>img {width:250px;height:auto;max-width:100%;border-radius:19px;border:6px solid #263237;box-shadow:0 22px 50px #0006}
+.project-visual.artwork-driving,.project-visual.artwork-onebullet {aspect-ratio:3/2}
+.case-artwork .artwork-sql>img {max-height:650px}
+.case-artwork .artwork-shop>img {width:287px}
+.case-artwork .artwork-knockup {aspect-ratio:16/9}
+.additional-project .artwork-caption {display:none}
+.additional-image:focus-visible {outline-offset:8px}
+@media(max-width:900px){.additional-project{gap:35px}.additional-copy .additional-headline{font-size:21px}.additional-copy>p:not(.additional-headline){font-size:13px}.artwork-sql>img{max-height:450px}.artwork-shop>img{width:220px}}
+@media(max-width:600px){.additional-work{margin-top:65px;gap:55px}.additional-project,.additional-sql,.additional-shop{display:flex;flex-direction:column;gap:27px;padding-top:30px;align-items:stretch}.additional-copy h3{font-size:30px}.additional-copy .additional-headline{font-size:23px;margin:17px 0 15px}.additional-copy>p:not(.additional-headline){font-size:14px}.additional-copy>.eyebrow{font-size:9px}.project-visual.artwork-sql,.project-visual.artwork-shop{padding:22px}.artwork-sql>img{max-height:480px}.artwork-shop>img{width:225px}.additional-copy .text-link{min-height:44px}.additional-external{margin-left:20px}}
+
+/* Compact secondary projects; full detail remains in each case study. */
+.compact-work-heading {margin-top: 90px;}
+.additional-work {display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:28px;margin:30px 0 0;}
+.additional-project {display:flex;flex-direction:column;gap:0;border:1px solid var(--border);border-radius:16px;overflow:hidden;padding:0;}
+.additional-image {width:100%;grid-column:auto;grid-row:auto;}
+.additional-copy {padding:22px;grid-column:auto;grid-row:auto;}
+.additional-copy h3 {font-size:24px;margin:12px 0;}
+.additional-copy .eyebrow {font-size:9px;}
+.additional-copy .additional-headline {font-size:14px;line-height:1.7;margin:0 0 18px;}
+.additional-copy .text-link {font-size:12px;}
+.additional-project .artwork-visual {aspect-ratio:16/10;min-height:0;max-height:none;padding:0;border-radius:0;}
+.additional-project .artwork-visual img {width:100%;height:100%;max-height:none;object-fit:contain;}
+.additional-project .artwork-shop {padding:16px;background:#181c24;}
+.additional-project .artwork-shop img {width:auto;max-width:100%;height:100%;}
+.additional-project .artwork-caption {display:none;}
+.case-visual .artwork-sql {aspect-ratio:16/9;padding:0;}
+.case-visual .artwork-sql img {width:100%;max-height:none;}
+@media(max-width:1050px){.additional-work{grid-template-columns:repeat(2,minmax(0,1fr));}}
+@media(max-width:600px){.additional-work{grid-template-columns:1fr;gap:24px;}.additional-copy{padding:20px;}.additional-copy h3{font-size:23px;}.compact-work-heading{margin-top:65px;}}
+.case-artwork .artwork-sql {aspect-ratio:16/9;padding:0;}.case-artwork .artwork-sql img{width:100%;max-height:none;object-fit:contain;}
+.additional-project{border-color:var(--line);}.additional-project .project-visual.artwork-sql{padding:0;}
+.additional-project .artwork-driving,.case-artwork .artwork-driving{aspect-ratio:16/9;}
+
+/* Vertical secondary-project cards preserve the full product compositions. */
+.additional-work {grid-template-columns:minmax(0,1fr);max-width:900px;margin:30px auto 0;gap:38px;}
+.additional-project {display:flex;flex-direction:column;align-items:stretch;}
+.additional-project .artwork-visual {aspect-ratio:auto;height:auto;padding:0;}
+.additional-project .artwork-visual img {display:block;width:100%;height:auto;max-height:none;object-fit:contain;}
+.additional-project .artwork-shop {aspect-ratio:16/9;padding:0;}
+.additional-copy {padding:28px 32px;}
+.additional-copy h3 {font-size:28px;}
+.additional-copy .additional-headline {font-size:16px;}
+@media(max-width:600px){.additional-work{grid-template-columns:1fr;gap:28px;}.additional-copy{padding:22px;}.additional-copy h3{font-size:24px;}.additional-copy .additional-headline{font-size:14px;}}
+
+/* Small project cards in one vertical list, as in the original index. */
+.additional-work{display:flex;flex-direction:column;max-width:none;gap:12px;margin-top:28px;}
+.additional-project{display:grid;grid-template-columns:170px minmax(0,1fr);align-items:center;gap:26px;padding:14px;border:1px solid var(--line);border-radius:12px;}
+.additional-project .additional-image{width:170px;}
+.additional-project .artwork-visual,.additional-project .artwork-shop{aspect-ratio:16/9;height:96px;overflow:hidden;padding:0;border-radius:6px;background:#1b1f25;}
+.additional-project .artwork-visual img{width:100%;height:100%;object-fit:contain;}
+.additional-project .additional-copy{padding:0;}
+.additional-copy h3{font-size:20px;margin:6px 0;}
+.additional-copy .additional-headline{font-size:12px;margin:0 0 8px;line-height:1.5;}
+.additional-copy .text-link{font-size:11px;min-height:28px;}
+.additional-copy .eyebrow{font-size:8px;}
+@media(max-width:600px){.additional-project{grid-template-columns:105px minmax(0,1fr);gap:14px;padding:12px;}.additional-project .additional-image{width:105px;}.additional-project .artwork-visual,.additional-project .artwork-shop{height:70px;}.additional-copy h3{font-size:16px;}.additional-copy .additional-headline{font-size:11px;}.additional-copy .eyebrow{font-size:7px;}.additional-external{margin-left:10px;}}
+.case-artwork .artwork-shop{aspect-ratio:16/9;padding:0;}.case-artwork .artwork-shop img{width:100%;height:auto;max-height:none;object-fit:contain;}
+.additional-project .additional-image{grid-column:1;grid-row:1;}.additional-project .additional-copy{grid-column:2;grid-row:1;}.additional-copy .eyebrow{display:block;line-height:1.7;}.additional-copy .text-link{white-space:nowrap;}
+
+/* Final twelve-project showcase. */
+.work-section .additional-work{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:28px;margin-top:48px;max-width:none;}
+.work-section .additional-project{display:flex;flex-direction:column;align-items:stretch;padding:0;gap:0;border-radius:16px;transition:border-color .2s,transform .2s;}
+.work-section .additional-project:hover{border-color:#727969;transform:translateY(-3px);}
+.work-section .additional-image{width:100%;}
+.work-section .additional-project .artwork-visual{aspect-ratio:3/2;height:auto;border-radius:0;background:#1b1f25;}
+.work-section .additional-project .artwork-visual img{width:100%;height:100%;object-fit:contain;}
+.work-section .additional-copy{padding:24px;flex:1;}
+.work-section .additional-copy h3{font-size:23px;line-height:1.3;margin:12px 0;}
+.work-section .additional-copy .eyebrow{font-size:9px;line-height:1.6;}
+.work-section .additional-copy .additional-headline{font-size:14px;line-height:1.65;margin-bottom:18px;}
+.work-section .additional-copy .text-link{font-size:12px;min-height:34px;}
+.work-section .sahara-cover-copy{left:5%;top:17%;}
+.work-section .sahara-cover-copy strong{font-size:clamp(15px,2vw,27px);}
+.work-section .sahara-cover-detail{font-size:9px;}
+.work-section .sahara-cover-copy .eyebrow{font-size:8px;}
+.work-section .screenshot-label{font-size:7px;padding:7px;left:8px;bottom:8px;}
+@media(max-width:1050px){.work-section .additional-work{grid-template-columns:repeat(2,minmax(0,1fr));}.work-section .sahara-cover-copy strong{font-size:24px;}}
+@media(max-width:600px){.work-section .additional-work{grid-template-columns:minmax(0,1fr);gap:24px;margin-top:32px;}.work-section .additional-copy{padding:22px;}.work-section .additional-copy h3{font-size:23px;}.work-section .sahara-cover-copy strong{font-size:25px;}}
+.additional-copy .additional-external{display:inline-flex;margin:6px 14px 0 0;}.case-body>.button{margin-right:12px;}
+
+.work-section .project-actions{display:flex;flex-wrap:wrap;align-items:center;gap:12px;margin-top:24px;padding-top:20px;border-top:1px solid var(--line);}
+.work-section .project-actions .text-link{display:inline-flex;align-items:center;justify-content:center;gap:9px;margin:0;padding:9px 12px;min-height:40px;border:1px solid #414638;border-radius:7px;font-size:11px;line-height:1.4;white-space:nowrap;}
+.work-section .project-actions .text-link::after{display:none;}
+.work-section .project-actions>button{color:var(--accent);background:#22281a;border-color:#54613b;}
+.work-section .project-actions>a{color:#c3cbb6;background:transparent;}
+.work-section .project-actions .text-link:hover{background:#2b3221;border-color:#7b8964;}
+.work-section .project-actions svg{width:14px;height:14px;flex-shrink:0;}
+
+/* Final interaction polish, keeping artwork fully visible. */
+.additional-image{overflow:hidden;}
+.additional-image img{transition:filter .35s ease;}
+.additional-image:hover img{filter:brightness(1.07);}
+.project-actions .text-link svg,.publication-read svg,.social-links>a>svg:last-child,.nav-contact svg{transition:transform .25s ease;}
+.project-actions .text-link:hover svg,.publication-card:hover .publication-read svg,.social-links>a:hover>svg:last-child,.nav-contact:hover svg{transform:translate(2px,-2px);}
+.social-links>a{min-height:44px;}
+.case-dialog[open]{animation:dialog-entrance .22s ease-out;}
+@keyframes dialog-entrance{from{opacity:0;translate:0 10px;}to{opacity:1;translate:0 0;}}
+@media(prefers-reduced-motion:reduce){.additional-image img,.project-actions svg,.publication-read svg,.social-links svg,.nav-contact svg{transition:none;}.case-dialog[open]{animation:none;}}

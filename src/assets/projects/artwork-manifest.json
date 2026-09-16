@@ -1,0 +1,680 @@
+[
+  {
+    "project": "TrustFin AI",
+    "source": "exec-29964011-b464-4de0-a93d-a462c6ae095e.png",
+    "outputs": [
+      {
+        "filename": "trustfin-ai.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 64828
+      },
+      {
+        "filename": "trustfin-ai-800.webp",
+        "width": 800,
+        "height": 450,
+        "bytes": 24834
+      },
+      {
+        "filename": "trustfin-ai-320.webp",
+        "width": 320,
+        "height": 180,
+        "bytes": 5708
+      }
+    ]
+  },
+  {
+    "project": "Haqooq AI",
+    "source": "exec-28f46d5c-e5b1-4818-b77c-6b7cf1a0bb73.png",
+    "outputs": [
+      {
+        "filename": "haqooq-ai.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 104608
+      },
+      {
+        "filename": "haqooq-ai-800.webp",
+        "width": 800,
+        "height": 450,
+        "bytes": 36942
+      },
+      {
+        "filename": "haqooq-ai-320.webp",
+        "width": 320,
+        "height": 180,
+        "bytes": 6432
+      }
+    ]
+  },
+  {
+    "project": "Sahara AI",
+    "source": "exec-0d1109c2-9496-405a-88c4-ff24eaca3c55.png",
+    "outputs": [
+      {
+        "filename": "sahara-ai.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 68252
+      },
+      {
+        "filename": "sahara-ai-800.webp",
+        "width": 800,
+        "height": 450,
+        "bytes": 25908
+      },
+      {
+        "filename": "sahara-ai-320.webp",
+        "width": 320,
+        "height": 180,
+        "bytes": 5568
+      }
+    ]
+  },
+  {
+    "project": "SmartHire AI",
+    "source": "exec-0e660e14-cc8e-4f9b-90af-053fe1ec9183.png",
+    "outputs": [
+      {
+        "filename": "smarthire-ai.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 59552
+      },
+      {
+        "filename": "smarthire-ai-800.webp",
+        "width": 800,
+        "height": 450,
+        "bytes": 22866
+      },
+      {
+        "filename": "smarthire-ai-320.webp",
+        "width": 320,
+        "height": 180,
+        "bytes": 5502
+      }
+    ]
+  },
+  {
+    "project": "Islamic Insights",
+    "source": "exec-d3442c3a-f3ea-4523-9752-e63995a03290.png",
+    "outputs": [
+      {
+        "filename": "islamic-insights.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 90040
+      },
+      {
+        "filename": "islamic-insights-800.webp",
+        "width": 800,
+        "height": 450,
+        "bytes": 34368
+      },
+      {
+        "filename": "islamic-insights-320.webp",
+        "width": 320,
+        "height": 180,
+        "bytes": 6284
+      }
+    ]
+  },
+  {
+    "project": "KnockUp",
+    "source": "exec-68e2e3a4-d99e-4b38-be1b-c982f99cb810.png",
+    "outputs": [
+      {
+        "filename": "knockup.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 50762
+      },
+      {
+        "filename": "knockup-800.webp",
+        "width": 800,
+        "height": 450,
+        "bytes": 20362
+      },
+      {
+        "filename": "knockup-320.webp",
+        "width": 320,
+        "height": 180,
+        "bytes": 4852
+      }
+    ]
+  },
+  {
+    "project": "SQL Helper",
+    "source": "exec-947d6fec-b66e-4b07-a4c9-7d01f7f17595.png",
+    "outputs": [
+      {
+        "filename": "sql-helper.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 53884
+      },
+      {
+        "filename": "sql-helper-800.webp",
+        "width": 800,
+        "height": 450,
+        "bytes": 22130
+      },
+      {
+        "filename": "sql-helper-320.webp",
+        "width": 320,
+        "height": 180,
+        "bytes": 5562
+      }
+    ]
+  },
+  {
+    "project": "AI Text & Chapter Summarizer",
+    "source": "exec-e9c2ca82-dfb4-4431-9e72-f1d6914f1ec7.png",
+    "outputs": [
+      {
+        "filename": "ai-summarizer.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 77750
+      },
+      {
+        "filename": "ai-summarizer-800.webp",
+        "width": 800,
+        "height": 450,
+        "bytes": 29040
+      },
+      {
+        "filename": "ai-summarizer-320.webp",
+        "width": 320,
+        "height": 180,
+        "bytes": 5678
+      }
+    ]
+  },
+  {
+    "project": "Reliable Driving School",
+    "source": "exec-d64a5583-75a9-4855-9555-bcd616637f3c.png",
+    "outputs": [
+      {
+        "filename": "reliable-driving-school.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 58944
+      },
+      {
+        "filename": "reliable-driving-school-800.webp",
+        "width": 800,
+        "height": 450,
+        "bytes": 23858
+      },
+      {
+        "filename": "reliable-driving-school-320.webp",
+        "width": 320,
+        "height": 180,
+        "bytes": 5654
+      }
+    ]
+  },
+  {
+    "project": "Careem DB",
+    "source": "exec-045bee6c-1993-4a88-8f29-20db2e52cfae.png",
+    "outputs": [
+      {
+        "filename": "careem-db.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 85042
+      },
+      {
+        "filename": "careem-db-800.webp",
+        "width": 800,
+        "height": 450,
+        "bytes": 33320
+      },
+      {
+        "filename": "careem-db-320.webp",
+        "width": 320,
+        "height": 180,
+        "bytes": 5942
+      }
+    ]
+  },
+  {
+    "project": "Shop Smart",
+    "source": "exec-b85ad2e3-1aaf-40dd-909b-bc2067a12037.png",
+    "outputs": [
+      {
+        "filename": "shop-smart.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 64694
+      },
+      {
+        "filename": "shop-smart-800.webp",
+        "width": 800,
+        "height": 450,
+        "bytes": 25358
+      },
+      {
+        "filename": "shop-smart-320.webp",
+        "width": 320,
+        "height": 180,
+        "bytes": 5586
+      }
+    ]
+  },
+  {
+    "project": "Flutter-folio",
+    "source": "exec-a85ab8eb-c461-4f7f-9a7d-dcbc52f385e8.png",
+    "outputs": [
+      {
+        "filename": "flutter-folio.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 61460
+      },
+      {
+        "filename": "flutter-folio-800.webp",
+        "width": 800,
+        "height": 450,
+        "bytes": 23816
+      },
+      {
+        "filename": "flutter-folio-320.webp",
+        "width": 320,
+        "height": 180,
+        "bytes": 5188
+      }
+    ]
+  },
+  {
+    "project": "Sahara AI — supplied artwork",
+    "source": "sahara-ai-supplied-original.png",
+    "provenance": "User-supplied; supersedes the generated Sahara concept in the site",
+    "outputs": [
+      {
+        "filename": "sahara-ai-supplied.webp",
+        "width": 900,
+        "height": 1600,
+        "bytes": 95294
+      },
+      {
+        "filename": "sahara-ai-supplied-800.webp",
+        "width": 450,
+        "height": 800,
+        "bytes": 38858
+      },
+      {
+        "filename": "sahara-ai-supplied-320.webp",
+        "width": 180,
+        "height": 320,
+        "bytes": 10332
+      }
+    ]
+  },
+  {
+    "project": "sahara-ai-polished",
+    "source": "sahara-ai-polished-original.png",
+    "provenance": "AI-refined presentation of supplied interface",
+    "outputs": [
+      {
+        "filename": "sahara-ai-polished.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 56338
+      },
+      {
+        "filename": "sahara-ai-polished-800.webp",
+        "width": 800,
+        "height": 450,
+        "bytes": 19964
+      },
+      {
+        "filename": "sahara-ai-polished-320.webp",
+        "width": 320,
+        "height": 180,
+        "bytes": 5274
+      }
+    ]
+  },
+  {
+    "project": "haqooq-ai-overview",
+    "source": "haqooq-ai-overview-original.png",
+    "provenance": "User-supplied application screenshot",
+    "outputs": [
+      {
+        "filename": "haqooq-ai-overview.webp",
+        "width": 1600,
+        "height": 740,
+        "bytes": 73228
+      },
+      {
+        "filename": "haqooq-ai-overview-800.webp",
+        "width": 800,
+        "height": 370,
+        "bytes": 27756
+      },
+      {
+        "filename": "haqooq-ai-overview-320.webp",
+        "width": 320,
+        "height": 148,
+        "bytes": 7220
+      }
+    ]
+  },
+  {
+    "project": "haqooq-ai-consultation",
+    "source": "haqooq-ai-consultation-original.png",
+    "provenance": "User-supplied application screenshot",
+    "outputs": [
+      {
+        "filename": "haqooq-ai-consultation.webp",
+        "width": 1600,
+        "height": 677,
+        "bytes": 32816
+      },
+      {
+        "filename": "haqooq-ai-consultation-800.webp",
+        "width": 800,
+        "height": 339,
+        "bytes": 10862
+      },
+      {
+        "filename": "haqooq-ai-consultation-320.webp",
+        "width": 320,
+        "height": 135,
+        "bytes": 2464
+      }
+    ]
+  },
+  {
+    "project": "Islamic Insights — supplied artwork",
+    "source": "islamic-insights-supplied-original.jpg",
+    "provenance": "User-supplied poster, preserved without cropping",
+    "outputs": [
+      {
+        "filename": "islamic-insights-supplied.webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 173658
+      },
+      {
+        "filename": "islamic-insights-supplied-800.webp",
+        "width": 800,
+        "height": 533,
+        "bytes": 68848
+      },
+      {
+        "filename": "islamic-insights-supplied-320.webp",
+        "width": 320,
+        "height": 213,
+        "bytes": 16668
+      }
+    ]
+  },
+  {
+    "project": "SmartHire AI — blue interface",
+    "source": "smarthire-ai-blue-original.png",
+    "provenance": "Supplied mockup with UI accents recolored using built-in imagegen",
+    "outputs": [
+      {
+        "filename": "smarthire-ai-blue.webp",
+        "width": 1200,
+        "height": 1200,
+        "bytes": 102690
+      },
+      {
+        "filename": "smarthire-ai-blue-800.webp",
+        "width": 800,
+        "height": 800,
+        "bytes": 59388
+      },
+      {
+        "filename": "smarthire-ai-blue-320.webp",
+        "width": 320,
+        "height": 320,
+        "bytes": 16284
+      }
+    ]
+  },
+  {
+    "project": "knockup-refined",
+    "source": "knockup-refined-original.png",
+    "outputs": [
+      {
+        "filename": "knockup-refined.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 78042
+      },
+      {
+        "filename": "knockup-refined-800.webp",
+        "width": 800,
+        "height": 450,
+        "bytes": 30700
+      },
+      {
+        "filename": "knockup-refined-320.webp",
+        "width": 320,
+        "height": 180,
+        "bytes": 8780
+      }
+    ]
+  },
+  {
+    "project": "sql-helper-supplied",
+    "source": "sql-helper-supplied-original.png",
+    "outputs": [
+      {
+        "filename": "sql-helper-supplied.webp",
+        "width": 1080,
+        "height": 1920,
+        "bytes": 35724
+      },
+      {
+        "filename": "sql-helper-supplied-800.webp",
+        "width": 800,
+        "height": 1422,
+        "bytes": 25962
+      },
+      {
+        "filename": "sql-helper-supplied-320.webp",
+        "width": 320,
+        "height": 569,
+        "bytes": 7590
+      }
+    ]
+  },
+  {
+    "project": "shop-smart-supplied",
+    "source": "shop-smart-supplied-original.png",
+    "outputs": [
+      {
+        "filename": "shop-smart-supplied.webp",
+        "width": 287,
+        "height": 624,
+        "bytes": 23486
+      },
+      {
+        "filename": "shop-smart-supplied-800.webp",
+        "width": 287,
+        "height": 624,
+        "bytes": 23486
+      },
+      {
+        "filename": "shop-smart-supplied-320.webp",
+        "width": 287,
+        "height": 624,
+        "bytes": 23486
+      }
+    ]
+  },
+  {
+    "project": "one-bullet",
+    "source": "one-bullet-original.png",
+    "outputs": [
+      {
+        "filename": "one-bullet.webp",
+        "width": 1024,
+        "height": 682,
+        "bytes": 67414
+      },
+      {
+        "filename": "one-bullet-800.webp",
+        "width": 800,
+        "height": 533,
+        "bytes": 46644
+      },
+      {
+        "filename": "one-bullet-320.webp",
+        "width": 320,
+        "height": 213,
+        "bytes": 12562
+      }
+    ]
+  },
+  {
+    "project": "reliable-driving-school-live",
+    "source": "reliable-driving-school-live-original.png",
+    "outputs": [
+      {
+        "filename": "reliable-driving-school-live.webp",
+        "width": 1440,
+        "height": 960,
+        "bytes": 53796
+      },
+      {
+        "filename": "reliable-driving-school-live-800.webp",
+        "width": 800,
+        "height": 533,
+        "bytes": 25462
+      },
+      {
+        "filename": "reliable-driving-school-live-320.webp",
+        "width": 320,
+        "height": 213,
+        "bytes": 6834
+      }
+    ]
+  },
+  {
+    "project": "knockup-reference",
+    "source": "knockup-reference-original.png",
+    "outputs": [
+      {
+        "filename": "knockup-reference.webp",
+        "width": 572,
+        "height": 331,
+        "bytes": 13270
+      },
+      {
+        "filename": "knockup-reference-800.webp",
+        "width": 572,
+        "height": 331,
+        "bytes": 13270
+      },
+      {
+        "filename": "knockup-reference-320.webp",
+        "width": 320,
+        "height": 185,
+        "bytes": 6492
+      }
+    ]
+  },
+  {
+    "project": "knockup-studio-v2",
+    "source": "knockup-studio-v2-original.png",
+    "outputs": [
+      {
+        "filename": "knockup-studio-v2.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 117120
+      },
+      {
+        "filename": "knockup-studio-v2-800.webp",
+        "width": 800,
+        "height": 450,
+        "bytes": 47800
+      },
+      {
+        "filename": "knockup-studio-v2-320.webp",
+        "width": 320,
+        "height": 180,
+        "bytes": 12546
+      }
+    ]
+  },
+  {
+    "project": "driving-school-studio",
+    "source": "driving-school-studio-original.png",
+    "outputs": [
+      {
+        "filename": "driving-school-studio.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 92944
+      },
+      {
+        "filename": "driving-school-studio-800.webp",
+        "width": 800,
+        "height": 450,
+        "bytes": 37382
+      },
+      {
+        "filename": "driving-school-studio-320.webp",
+        "width": 320,
+        "height": 180,
+        "bytes": 10632
+      }
+    ]
+  },
+  {
+    "project": "sql-helper-refined",
+    "source": "sql-helper-refined-original.png",
+    "outputs": [
+      {
+        "filename": "sql-helper-refined.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 75870
+      },
+      {
+        "filename": "sql-helper-refined-800.webp",
+        "width": 800,
+        "height": 450,
+        "bytes": 28116
+      },
+      {
+        "filename": "sql-helper-refined-320.webp",
+        "width": 320,
+        "height": 180,
+        "bytes": 6862
+      }
+    ]
+  },
+  {
+    "project": "shop-smart-studio",
+    "source": "shop-smart-studio-original.png",
+    "outputs": [
+      {
+        "filename": "shop-smart-studio.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 74460
+      },
+      {
+        "filename": "shop-smart-studio-800.webp",
+        "width": 800,
+        "height": 450,
+        "bytes": 29556
+      },
+      {
+        "filename": "shop-smart-studio-320.webp",
+        "width": 320,
+        "height": 180,
+        "bytes": 8208
+      }
+    ]
+  }
+]
