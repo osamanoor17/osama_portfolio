@@ -1,0 +1,360 @@
+/* Cyberpunk / High-Tech Architecture Card Deck Styles */
+:root {
+  --cyber-gold: #f59e0b;
+  --cyber-accent: #d6ef80;
+  --cyber-bg: #0d0f12;
+  --cyber-surface: #13161a;
+  --cyber-border: rgba(245, 158, 11, 0.35);
+  --cyber-border-hover: rgba(245, 158, 11, 0.85);
+  --cyber-muted: #8e96a3;
+}
+
+.cyber-deck-container {
+  margin-top: 30px;
+  width: 100%;
+}
+
+.cyber-deck-header {
+  margin-bottom: 32px;
+}
+
+.cyber-deck-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 6px 14px;
+  border: 1px solid var(--cyber-border);
+  border-radius: 4px;
+  background: rgba(245, 158, 11, 0.08);
+  color: var(--cyber-gold);
+  font: 11px var(--mono, monospace);
+  letter-spacing: 0.1em;
+  margin-bottom: 12px;
+}
+
+.cyber-deck-subtext {
+  font-size: 14px;
+  color: var(--cyber-muted);
+}
+
+.cyber-deck-stack {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+  position: relative;
+  padding-bottom: 40px;
+}
+
+/* Individual Cyber Project Card */
+.cyber-card {
+  position: sticky;
+  background: var(--cyber-bg);
+  border: 1px solid var(--cyber-border);
+  border-radius: 8px;
+  padding: 32px 36px;
+  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.6), inset 0 0 20px rgba(245, 158, 11, 0.02);
+  transition: border-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+  overflow: hidden;
+  backdrop-filter: blur(12px);
+  --mouse-x-pct: 50%;
+}
+
+.cyber-card:hover {
+  border-color: var(--cyber-border-hover);
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.85), 0 0 30px rgba(245, 158, 11, 0.18), inset 0 0 25px rgba(245, 158, 11, 0.06);
+}
+
+/* Top Laser Edge Tracer */
+.cyber-card-tracer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: linear-gradient(
+    90deg,
+    transparent 0%,
+    rgba(245, 158, 11, 0.3) calc(var(--mouse-x-pct) - 15%),
+    #f59e0b var(--mouse-x-pct),
+    rgba(245, 158, 11, 0.3) calc(var(--mouse-x-pct) + 15%),
+    transparent 100%
+  );
+  pointer-events: none;
+  z-index: 5;
+}
+
+.cyber-card-tracer::after {
+  content: '';
+  position: absolute;
+  top: -3px;
+  left: var(--mouse-x-pct);
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #f59e0b;
+  box-shadow: 0 0 12px 3px #f59e0b;
+  transform: translateX(-50%);
+  transition: left 0.05s linear;
+}
+
+/* Cyber Corner Brackets */
+.cyber-bracket {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  border-color: var(--cyber-gold);
+  border-style: solid;
+  pointer-events: none;
+  opacity: 0.6;
+  transition: opacity 0.3s ease, border-color 0.3s ease;
+}
+
+.cyber-card:hover .cyber-bracket {
+  opacity: 1;
+}
+
+.cyber-bracket-tl {
+  top: 6px;
+  left: 6px;
+  border-width: 2px 0 0 2px;
+}
+
+.cyber-bracket-tr {
+  top: 6px;
+  right: 6px;
+  border-width: 2px 2px 0 0;
+}
+
+.cyber-bracket-bl {
+  bottom: 6px;
+  left: 6px;
+  border-width: 0 0 2px 2px;
+}
+
+.cyber-bracket-br {
+  bottom: 6px;
+  right: 6px;
+  border-width: 0 2px 2px 0;
+}
+
+/* Card Inner Grid */
+.cyber-card-grid {
+  display: grid;
+  grid-template-columns: 1.25fr 1fr;
+  gap: 36px;
+  align-items: center;
+}
+
+.cyber-card-main {
+  display: flex;
+  flex-direction: column;
+}
+
+.cyber-card-category {
+  font: 11px var(--mono, monospace);
+  letter-spacing: 0.12em;
+  color: var(--cyber-gold);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 12px;
+}
+
+.cyber-index-num {
+  font-weight: 700;
+}
+
+.cyber-sep {
+  opacity: 0.6;
+}
+
+.cyber-cat-name {
+  color: #fbbf24;
+}
+
+.cyber-card-title {
+  font-size: clamp(28px, 3.4vw, 44px);
+  font-weight: 800;
+  letter-spacing: -0.04em;
+  line-height: 1.1;
+  color: #ffffff;
+  margin-bottom: 16px;
+  text-transform: uppercase;
+}
+
+.cyber-card-desc {
+  font-size: 14px;
+  line-height: 1.75;
+  color: #a3adc0;
+  margin-bottom: 24px;
+  max-width: 580px;
+}
+
+.cyber-card-actions {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  flex-wrap: wrap;
+}
+
+.cyber-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 18px;
+  font: 11px var(--mono, monospace);
+  letter-spacing: 0.08em;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.25s ease;
+  text-decoration: none;
+}
+
+.primary-cyber {
+  background: var(--cyber-gold);
+  color: #0d0f12;
+  border: 1px solid var(--cyber-gold);
+  font-weight: 700;
+}
+
+.primary-cyber:hover {
+  background: #fbbf24;
+  box-shadow: 0 0 16px rgba(245, 158, 11, 0.4);
+  transform: translateY(-2px);
+}
+
+.outline-cyber {
+  background: rgba(255, 255, 255, 0.03);
+  color: #d1d5db;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.outline-cyber:hover {
+  background: rgba(245, 158, 11, 0.1);
+  color: var(--cyber-gold);
+  border-color: var(--cyber-gold);
+}
+
+/* Architecture Details Box (Right Column) */
+.cyber-arch-box {
+  background: rgba(15, 18, 24, 0.85);
+  border: 1px solid rgba(245, 158, 11, 0.25);
+  border-radius: 6px;
+  padding: 22px 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.cyber-arch-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 12px;
+  border-bottom: 1px solid rgba(245, 158, 11, 0.2);
+}
+
+.cyber-arch-tag {
+  font: 10px var(--mono, monospace);
+  letter-spacing: 0.12em;
+  color: var(--cyber-gold);
+  font-weight: 600;
+}
+
+.cyber-arch-icon {
+  color: var(--cyber-gold);
+  opacity: 0.8;
+}
+
+.cyber-arch-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.cyber-arch-row {
+  display: grid;
+  grid-template-columns: 110px 1fr;
+  gap: 12px;
+  align-items: center;
+  font: 11px var(--mono, monospace);
+}
+
+.cyber-arch-label {
+  color: #717d93;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.cyber-arch-value {
+  color: #f3f4f6;
+  font-weight: 500;
+  text-align: right;
+  word-break: break-word;
+}
+
+.cyber-tech-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  padding-top: 10px;
+  border-top: 1px solid rgba(255, 255, 255, 0.07);
+}
+
+.cyber-tech-tag {
+  font: 9px var(--mono, monospace);
+  letter-spacing: 0.05em;
+  padding: 4px 8px;
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 3px;
+  color: #9ca3af;
+}
+
+/* View Mode Toggle Controls */
+.view-mode-toggle {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: rgba(15, 18, 24, 0.6);
+  border: 1px solid var(--line, #30322c);
+  padding: 4px;
+  border-radius: 30px;
+}
+
+.view-mode-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 16px;
+  font: 11px var(--mono, monospace);
+  letter-spacing: 0.05em;
+  border-radius: 20px;
+  color: var(--muted, #96998e);
+  transition: all 0.2s ease;
+}
+
+.view-mode-btn[aria-pressed='true'] {
+  background: var(--cyber-gold);
+  color: #0d0f12;
+  font-weight: 700;
+}
+
+/* Responsive styles */
+@media (max-width: 900px) {
+  .cyber-card-grid {
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+  .cyber-card {
+    padding: 24px;
+    position: relative;
+    top: auto !important;
+  }
+  .cyber-card-title {
+    font-size: 26px;
+  }
+  .cyber-arch-row {
+    grid-template-columns: 100px 1fr;
+  }
+}

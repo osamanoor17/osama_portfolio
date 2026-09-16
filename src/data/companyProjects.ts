@@ -1,0 +1,20 @@
+export interface OfficeProject { name:string; kind:string; summary:string; contribution:string; stack?:string[]; website?:string }
+export interface CompanyProjects {id:string;name:string;period:string;role:string;summary:string;projects:OfficeProject[]}
+// Product names and Angular scope confirmed by the owner on 16 September 2026.
+// No unverified product metrics, technologies or client links are inferred.
+export const companyProjects:CompanyProjects[] = [
+ {id:'iconsult',name:'iConsult / ICA',period:'SEP 2025 — MAY 2026',role:'Associate Software Engineer / Consultancy',summary:'Client-facing engineering across digital banking, HRMS and financial web applications.',projects:[
+  {name:'BAJK — Digital Banking',website:'https://bankajk.com/',kind:'BANKING CLIENT / MOBILE',summary:'Banking application work for Bank of Azad Jammu & Kashmir, alongside consultancy on operational banking workflows.',contribution:'Contributed to the React Native mobile banking application within a production team and supported post-launch activities. Worked with CBS and BDS workflows covering onboarding, account maintenance and transactions.',stack:['React Native','CBS / BDS']},
+  {name:'Grant Thornton — HRMS & Productivity',website:'https://www.grantthornton.pk/location/Karachi/',kind:'CLIENT PROJECT / ENTERPRISE',summary:'An HRMS and productivity system for Grant Thornton, worked on during my time at iConsult.',contribution:'Worked across almost the entire feature set of the HRMS and productivity system, developing the Angular application as part of client project delivery.',stack:['Angular']},
+  {name:'Loan Origination System',kind:'LOS / WEB APPLICATION',summary:'A lending workflow web application supporting the loan origination process.',contribution:'Worked on the LOS web application, with experience in related workflow analysis, documentation, SQL validation and UAT.',stack:['Web application','SQL','UAT']},
+  {name:'Anti-Money Laundering',kind:'AML / WEB APPLICATION',summary:'An enterprise web application for anti-money laundering workflows.',contribution:'Worked on the AML web application and supported AML-related analysis, documentation and data validation.',stack:['Web application','Data validation']},
+ ]},
+ {id:'kcompute',name:'KCompute',period:'FROM JUN 2024',role:'Flutter / Mobile Application Developer',summary:'Mobile product work across education-focused applications and connected user experiences.',projects:[
+  {name:'Eduman',website:'https://www.edu-man.com/',kind:'EDUCATION / MOBILE',summary:'An education-focused application developed as part of the KCompute mobile team.',contribution:'Worked on the application during my Flutter development role. The role included reusable UI development, REST API and Firebase integrations, state management and maintenance of application features.',stack:['Flutter','Dart']},
+  {name:'Ashreitech',website:'https://ashreitech.edu.pk/',kind:'EDUCATION / MOBILE',summary:'Education-focused mobile application work delivered at KCompute.',contribution:'Contributed to mobile application development as part of the KCompute team, working within its Flutter application development and maintenance responsibilities.',stack:['Flutter','Dart']},
+ ]},
+ {id:'design-henge',name:'Design Henge',period:'AUG 2023 — FEB 2024',role:'Junior Flutter Developer',summary:'Building the mobile interfaces behind employee workflows and business applications.',projects:[
+  {name:'HRMS',kind:'HUMAN RESOURCES / MOBILE',summary:'Employee-facing software for everyday HR requests, attendance and information.',contribution:'Worked on announcements, employee requests, leaves, payroll and tickets. Implemented attendance and location-based check-in/check-out workflows, reusable UI and REST API integrations.',stack:['Flutter','Dart','Provider','REST APIs']},
+  {name:'Sales Lentz',website:'https://sales-lentz.lu/en/',kind:'BUSINESS APPLICATION',summary:'A company product I worked on while at Design Henge.',contribution:'Contributed to Sales Lentz during my time at Design Henge, alongside work on the company’s HRMS application.'},
+ ]},
+];

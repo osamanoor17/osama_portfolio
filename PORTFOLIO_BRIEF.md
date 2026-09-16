@@ -450,3 +450,15 @@ The visitor should understand within a few seconds that Muhammad Osama Noor work
 **Functional Consulting**
 
 The portfolio should communicate technical breadth without exaggerating seniority or experience.
+
+## Confirmed company projects — 16 September 2026
+
+- Design Henge: HRMS and Sales Lentz.
+- KCompute: Eduman and Ashreitech.
+- iConsult / ICA: Bank of Azad Jammu & Kashmir (BAJK) digital banking, Grant Thornton HRMS/Productivity, Loan Origination System (LOS) web application and Anti-Money Laundering (AML) web application.
+- Grant Thornton HRMS/Productivity: worked across almost the entire feature set; Angular stack.
+- Exact Sales Lentz feature ownership, stack and detailed outcomes have not yet been supplied. Do not invent them.
+
+## Creative redesign
+
+Opening curtain reveal (once per browser session), animated headline, pointer-responsive engineering scene with AI/Mobile/Web controls, pausable orbital motion, stacked featured projects on large screens and animated company project tabs. Both themes and reduced-motion support retained. All eight professional products are available under Company work.
