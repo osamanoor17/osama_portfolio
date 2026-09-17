@@ -377,3 +377,65 @@
     grid-template-columns: 100px 1fr;
   }
 }
+
+@media (max-width: 600px) {
+  .view-mode-toggle {
+    flex-direction: column;
+    width: 100%;
+    border-radius: 14px;
+    padding: 6px;
+    gap: 6px;
+  }
+  .view-mode-btn {
+    width: 100%;
+    justify-content: center;
+    padding: 10px 14px;
+    font-size: 10px;
+    text-align: center;
+  }
+  .cyber-deck-header {
+    margin-bottom: 20px;
+  }
+  .cyber-card {
+    padding: 20px 16px;
+    border-radius: 12px;
+  }
+  .cyber-card-category {
+    font-size: 9px;
+    flex-wrap: wrap;
+    gap: 6px;
+  }
+  .cyber-card-title {
+    font-size: clamp(20px, 6vw, 28px);
+    word-break: break-word;
+  }
+  .cyber-card-desc {
+    font-size: 13px;
+    line-height: 1.65;
+    margin-bottom: 18px;
+  }
+  .cyber-card-actions {
+    flex-direction: column;
+    width: 100%;
+    align-items: stretch;
+    gap: 8px;
+  }
+  .cyber-btn {
+    width: 100%;
+    justify-content: center;
+    padding: 12px;
+  }
+  .cyber-arch-box {
+    padding: 16px 14px;
+    border-radius: 8px;
+  }
+  .cyber-arch-row {
+    grid-template-columns: 85px 1fr;
+    gap: 8px;
+    font-size: 10px;
+  }
+  .cyber-arch-value {
+    word-break: break-word;
+  }
+}
+
